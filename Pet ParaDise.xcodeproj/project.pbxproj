@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180CBBEB21647F5300944E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CBBEA21647F5300944E57 /* AppDelegate.swift */; };
+		180CBBED21647F5300944E57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CBBEC21647F5300944E57 /* ViewController.swift */; };
+		180CBBF021647F5300944E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180CBBEE21647F5300944E57 /* Main.storyboard */; };
+		180CBBF221647F5800944E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180CBBF121647F5800944E57 /* Assets.xcassets */; };
+		180CBBF521647F5800944E57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180CBBF321647F5800944E57 /* LaunchScreen.storyboard */; };
+		180CBC0021647F5800944E57 /* Pet_ParaDiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CBBFF21647F5800944E57 /* Pet_ParaDiseTests.swift */; };
+		180CBC0B21647F5800944E57 /* Pet_ParaDiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CBC0A21647F5800944E57 /* Pet_ParaDiseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180CBBFC21647F5800944E57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180CBBDF21647F5300944E57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180CBBE621647F5300944E57;
+			remoteInfo = "Pet ParaDise";
+		};
+		180CBC0721647F5800944E57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180CBBDF21647F5300944E57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180CBBE621647F5300944E57;
+			remoteInfo = "Pet ParaDise";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180CBBE721647F5300944E57 /* Pet ParaDise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pet ParaDise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180CBBEA21647F5300944E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		180CBBEC21647F5300944E57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		180CBBEF21647F5300944E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180CBBF121647F5800944E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180CBBF421647F5800944E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180CBBF621647F5800944E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180CBBFB21647F5800944E57 /* Pet ParaDiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pet ParaDiseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180CBBFF21647F5800944E57 /* Pet_ParaDiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet_ParaDiseTests.swift; sourceTree = "<group>"; };
+		180CBC0121647F5800944E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180CBC0621647F5800944E57 /* Pet ParaDiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pet ParaDiseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180CBC0A21647F5800944E57 /* Pet_ParaDiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet_ParaDiseUITests.swift; sourceTree = "<group>"; };
+		180CBC0C21647F5800944E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180CBBE421647F5300944E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180CBBF821647F5800944E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180CBC0321647F5800944E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180CBBDE21647F5300944E57 = {
+			isa = PBXGroup;
+			children = (
+				180CBBE921647F5300944E57 /* Pet ParaDise */,
+				180CBBFE21647F5800944E57 /* Pet ParaDiseTests */,
+				180CBC0921647F5800944E57 /* Pet ParaDiseUITests */,
+				180CBBE821647F5300944E57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180CBBE821647F5300944E57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180CBBE721647F5300944E57 /* Pet ParaDise.app */,
+				180CBBFB21647F5800944E57 /* Pet ParaDiseTests.xctest */,
+				180CBC0621647F5800944E57 /* Pet ParaDiseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180CBBE921647F5300944E57 /* Pet ParaDise */ = {
+			isa = PBXGroup;
+			children = (
+				180CBBEA21647F5300944E57 /* AppDelegate.swift */,
+				180CBBEC21647F5300944E57 /* ViewController.swift */,
+				180CBBEE21647F5300944E57 /* Main.storyboard */,
+				180CBBF121647F5800944E57 /* Assets.xcassets */,
+				180CBBF321647F5800944E57 /* LaunchScreen.storyboard */,
+				180CBBF621647F5800944E57 /* Info.plist */,
+			);
+			path = "Pet ParaDise";
+			sourceTree = "<group>";
+		};
+		180CBBFE21647F5800944E57 /* Pet ParaDiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				180CBBFF21647F5800944E57 /* Pet_ParaDiseTests.swift */,
+				180CBC0121647F5800944E57 /* Info.plist */,
+			);
+			path = "Pet ParaDiseTests";
+			sourceTree = "<group>";
+		};
+		180CBC0921647F5800944E57 /* Pet ParaDiseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				180CBC0A21647F5800944E57 /* Pet_ParaDiseUITests.swift */,
+				180CBC0C21647F5800944E57 /* Info.plist */,
+			);
+			path = "Pet ParaDiseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180CBBE621647F5300944E57 /* Pet ParaDise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180CBC0F21647F5800944E57 /* Build configuration list for PBXNativeTarget "Pet ParaDise" */;
+			buildPhases = (
+				180CBBE321647F5300944E57 /* Sources */,
+				180CBBE421647F5300944E57 /* Frameworks */,
+				180CBBE521647F5300944E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pet ParaDise";
+			productName = "Pet ParaDise";
+			productReference = 180CBBE721647F5300944E57 /* Pet ParaDise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180CBBFA21647F5800944E57 /* Pet ParaDiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180CBC1221647F5800944E57 /* Build configuration list for PBXNativeTarget "Pet ParaDiseTests" */;
+			buildPhases = (
+				180CBBF721647F5800944E57 /* Sources */,
+				180CBBF821647F5800944E57 /* Frameworks */,
+				180CBBF921647F5800944E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180CBBFD21647F5800944E57 /* PBXTargetDependency */,
+			);
+			name = "Pet ParaDiseTests";
+			productName = "Pet ParaDiseTests";
+			productReference = 180CBBFB21647F5800944E57 /* Pet ParaDiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		180CBC0521647F5800944E57 /* Pet ParaDiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180CBC1521647F5800944E57 /* Build configuration list for PBXNativeTarget "Pet ParaDiseUITests" */;
+			buildPhases = (
+				180CBC0221647F5800944E57 /* Sources */,
+				180CBC0321647F5800944E57 /* Frameworks */,
+				180CBC0421647F5800944E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180CBC0821647F5800944E57 /* PBXTargetDependency */,
+			);
+			name = "Pet ParaDiseUITests";
+			productName = "Pet ParaDiseUITests";
+			productReference = 180CBC0621647F5800944E57 /* Pet ParaDiseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180CBBDF21647F5300944E57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					180CBBE621647F5300944E57 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					180CBBFA21647F5800944E57 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 180CBBE621647F5300944E57;
+					};
+					180CBC0521647F5800944E57 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 180CBBE621647F5300944E57;
+					};
+				};
+			};
+			buildConfigurationList = 180CBBE221647F5300944E57 /* Build configuration list for PBXProject "Pet ParaDise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180CBBDE21647F5300944E57;
+			productRefGroup = 180CBBE821647F5300944E57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180CBBE621647F5300944E57 /* Pet ParaDise */,
+				180CBBFA21647F5800944E57 /* Pet ParaDiseTests */,
+				180CBC0521647F5800944E57 /* Pet ParaDiseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180CBBE521647F5300944E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180CBBF521647F5800944E57 /* LaunchScreen.storyboard in Resources */,
+				180CBBF221647F5800944E57 /* Assets.xcassets in Resources */,
+				180CBBF021647F5300944E57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180CBBF921647F5800944E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180CBC0421647F5800944E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180CBBE321647F5300944E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180CBBED21647F5300944E57 /* ViewController.swift in Sources */,
+				180CBBEB21647F5300944E57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180CBBF721647F5800944E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180CBC0021647F5800944E57 /* Pet_ParaDiseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180CBC0221647F5800944E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180CBC0B21647F5800944E57 /* Pet_ParaDiseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180CBBFD21647F5800944E57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180CBBE621647F5300944E57 /* Pet ParaDise */;
+			targetProxy = 180CBBFC21647F5800944E57 /* PBXContainerItemProxy */;
+		};
+		180CBC0821647F5800944E57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180CBBE621647F5300944E57 /* Pet ParaDise */;
+			targetProxy = 180CBC0721647F5800944E57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180CBBEE21647F5300944E57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180CBBEF21647F5300944E57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180CBBF321647F5800944E57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180CBBF421647F5800944E57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180CBC0D21647F5800944E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		180CBC0E21647F5800944E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180CBC1021647F5800944E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pet ParaDise/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ansara.Pet-ParaDise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		180CBC1121647F5800944E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pet ParaDise/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ansara.Pet-ParaDise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		180CBC1321647F5800944E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pet ParaDiseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ansara.Pet-ParaDiseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pet ParaDise.app/Pet ParaDise";
+			};
+			name = Debug;
+		};
+		180CBC1421647F5800944E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pet ParaDiseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ansara.Pet-ParaDiseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pet ParaDise.app/Pet ParaDise";
+			};
+			name = Release;
+		};
+		180CBC1621647F5800944E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pet ParaDiseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ansara.Pet-ParaDiseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pet ParaDise";
+			};
+			name = Debug;
+		};
+		180CBC1721647F5800944E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pet ParaDiseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ansara.Pet-ParaDiseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pet ParaDise";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180CBBE221647F5300944E57 /* Build configuration list for PBXProject "Pet ParaDise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180CBC0D21647F5800944E57 /* Debug */,
+				180CBC0E21647F5800944E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180CBC0F21647F5800944E57 /* Build configuration list for PBXNativeTarget "Pet ParaDise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180CBC1021647F5800944E57 /* Debug */,
+				180CBC1121647F5800944E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180CBC1221647F5800944E57 /* Build configuration list for PBXNativeTarget "Pet ParaDiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180CBC1321647F5800944E57 /* Debug */,
+				180CBC1421647F5800944E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180CBC1521647F5800944E57 /* Build configuration list for PBXNativeTarget "Pet ParaDiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180CBC1621647F5800944E57 /* Debug */,
+				180CBC1721647F5800944E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180CBBDF21647F5300944E57 /* Project object */;
+}
