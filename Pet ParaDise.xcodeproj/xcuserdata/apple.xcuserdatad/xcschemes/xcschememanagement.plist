@@ -7,7 +7,25 @@
 		<key>Pet ParaDise.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>9</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>180CBBE621647F5300944E57</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>180CBBFA21647F5800944E57</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>180CBC0521647F5800944E57</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

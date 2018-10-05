@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		086DD052B597D010172A070B /* Pods_Pet_ParaDiseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DD8AEA92F9CB390836CAE4 /* Pods_Pet_ParaDiseTests.framework */; };
 		180CBBEB21647F5300944E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CBBEA21647F5300944E57 /* AppDelegate.swift */; };
 		180CBBED21647F5300944E57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CBBEC21647F5300944E57 /* ViewController.swift */; };
 		180CBBF021647F5300944E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180CBBEE21647F5300944E57 /* Main.storyboard */; };
@@ -14,6 +15,25 @@
 		180CBBF521647F5800944E57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180CBBF321647F5800944E57 /* LaunchScreen.storyboard */; };
 		180CBC0021647F5800944E57 /* Pet_ParaDiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CBBFF21647F5800944E57 /* Pet_ParaDiseTests.swift */; };
 		180CBC0B21647F5800944E57 /* Pet_ParaDiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CBC0A21647F5800944E57 /* Pet_ParaDiseUITests.swift */; };
+		180CBC1C216481D100944E57 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CBC1A216481D100944E57 /* SWRevealViewController.m */; };
+		180CBC202164827000944E57 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CBC1F2164827000944E57 /* LoginViewController.swift */; };
+		180CBC222164828000944E57 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CBC212164828000944E57 /* SignUpViewController.swift */; };
+		180CBC2421648B9900944E57 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CBC2321648B9900944E57 /* ForgotPasswordViewController.swift */; };
+		180CBC2821648C9200944E57 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CBC2621648C9200944E57 /* Utility.swift */; };
+		180CBC2921648C9200944E57 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CBC2721648C9200944E57 /* GlobalConstants.swift */; };
+		180CBC2B2164C2AC00944E57 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CBC2A2164C2AC00944E57 /* HomeViewController.swift */; };
+		180CBC2D2164C36300944E57 /* SideBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CBC2C2164C36300944E57 /* SideBarViewController.swift */; };
+		189F0F8B21660B2D0066E8B0 /* SubCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F0F8A21660B2D0066E8B0 /* SubCategoryCollectionViewCell.swift */; };
+		189F0F8E21660F150066E8B0 /* JosefinSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 189F0F8C21660F140066E8B0 /* JosefinSans-SemiBold.ttf */; };
+		189F0F8F21660F150066E8B0 /* JosefinSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 189F0F8D21660F140066E8B0 /* JosefinSans-Bold.ttf */; };
+		189F0F92216613830066E8B0 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F0F90216613830066E8B0 /* ListTableViewCell.swift */; };
+		189F0F93216613830066E8B0 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189F0F91216613830066E8B0 /* ListTableViewCell.xib */; };
+		189F0F95216614FB0066E8B0 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F0F94216614FB0066E8B0 /* ProductListViewController.swift */; };
+		18FABD892165E2F000DD7997 /* josefin-sans in Resources */ = {isa = PBXBuildFile; fileRef = 18FABD882165E2F000DD7997 /* josefin-sans */; };
+		18FABD9F2165E82A00DD7997 /* JosefinSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18FABD9E2165E82900DD7997 /* JosefinSans-Regular.ttf */; };
+		18FABDA22165EFB900DD7997 /* PetSubCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FABDA12165EFB900DD7997 /* PetSubCategoriesViewController.swift */; };
+		787274518DCA8385EA001436 /* Pods_Pet_ParaDise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09A865F8BE97DDEC35DCF88 /* Pods_Pet_ParaDise.framework */; };
+		89879DF926AD674CFBBAA50A /* Pods_Pet_ParaDiseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6C268FDA1A3BEF97AB724C /* Pods_Pet_ParaDiseUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +67,34 @@
 		180CBC0621647F5800944E57 /* Pet ParaDiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pet ParaDiseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		180CBC0A21647F5800944E57 /* Pet_ParaDiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet_ParaDiseUITests.swift; sourceTree = "<group>"; };
 		180CBC0C21647F5800944E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180CBC19216481D000944E57 /* Pet ParaDise-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pet ParaDise-Bridging-Header.h"; sourceTree = "<group>"; };
+		180CBC1A216481D100944E57 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		180CBC1B216481D100944E57 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		180CBC1F2164827000944E57 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		180CBC212164828000944E57 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		180CBC2321648B9900944E57 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		180CBC2621648C9200944E57 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		180CBC2721648C9200944E57 /* GlobalConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		180CBC2A2164C2AC00944E57 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		180CBC2C2164C36300944E57 /* SideBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarViewController.swift; sourceTree = "<group>"; };
+		189F0F8A21660B2D0066E8B0 /* SubCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		189F0F8C21660F140066E8B0 /* JosefinSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "JosefinSans-SemiBold.ttf"; path = "Pet ParaDise/Fonts/josefin-sans/JosefinSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		189F0F8D21660F140066E8B0 /* JosefinSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "JosefinSans-Bold.ttf"; path = "Pet ParaDise/Fonts/josefin-sans/JosefinSans-Bold.ttf"; sourceTree = "<group>"; };
+		189F0F90216613830066E8B0 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		189F0F91216613830066E8B0 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		189F0F94216614FB0066E8B0 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		18FABD882165E2F000DD7997 /* josefin-sans */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "josefin-sans"; sourceTree = "<group>"; };
+		18FABD9E2165E82900DD7997 /* JosefinSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "JosefinSans-Regular.ttf"; path = "Pet ParaDise/Fonts/JosefinSans-Regular.ttf"; sourceTree = "<group>"; };
+		18FABDA12165EFB900DD7997 /* PetSubCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSubCategoriesViewController.swift; sourceTree = "<group>"; };
+		286981789C5310B9419EFB38 /* Pods-Pet ParaDiseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet ParaDiseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pet ParaDiseUITests/Pods-Pet ParaDiseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		38DD8AEA92F9CB390836CAE4 /* Pods_Pet_ParaDiseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pet_ParaDiseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		398927EC7D2454CFDF84EE6F /* Pods-Pet ParaDiseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet ParaDiseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pet ParaDiseTests/Pods-Pet ParaDiseTests.release.xcconfig"; sourceTree = "<group>"; };
+		561D268C6D8875A63A10E855 /* Pods-Pet ParaDise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet ParaDise.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pet ParaDise/Pods-Pet ParaDise.release.xcconfig"; sourceTree = "<group>"; };
+		8C6C268FDA1A3BEF97AB724C /* Pods_Pet_ParaDiseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pet_ParaDiseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC214425BEFAE4514FCA74FC /* Pods-Pet ParaDise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet ParaDise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pet ParaDise/Pods-Pet ParaDise.debug.xcconfig"; sourceTree = "<group>"; };
+		C09A865F8BE97DDEC35DCF88 /* Pods_Pet_ParaDise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pet_ParaDise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8F501F29B05A09FED8695E /* Pods-Pet ParaDiseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet ParaDiseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pet ParaDiseTests/Pods-Pet ParaDiseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D18B05AFD5FB1032B996EE1E /* Pods-Pet ParaDiseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet ParaDiseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pet ParaDiseUITests/Pods-Pet ParaDiseUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787274518DCA8385EA001436 /* Pods_Pet_ParaDise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				086DD052B597D010172A070B /* Pods_Pet_ParaDiseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +118,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89879DF926AD674CFBBAA50A /* Pods_Pet_ParaDiseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03C1BB7B1CE85A6756ABDB5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC214425BEFAE4514FCA74FC /* Pods-Pet ParaDise.debug.xcconfig */,
+				561D268C6D8875A63A10E855 /* Pods-Pet ParaDise.release.xcconfig */,
+				CC8F501F29B05A09FED8695E /* Pods-Pet ParaDiseTests.debug.xcconfig */,
+				398927EC7D2454CFDF84EE6F /* Pods-Pet ParaDiseTests.release.xcconfig */,
+				286981789C5310B9419EFB38 /* Pods-Pet ParaDiseUITests.debug.xcconfig */,
+				D18B05AFD5FB1032B996EE1E /* Pods-Pet ParaDiseUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		180CBBDE21647F5300944E57 = {
 			isa = PBXGroup;
 			children = (
+				189F0F8D21660F140066E8B0 /* JosefinSans-Bold.ttf */,
+				189F0F8C21660F140066E8B0 /* JosefinSans-SemiBold.ttf */,
+				18FABD9E2165E82900DD7997 /* JosefinSans-Regular.ttf */,
 				180CBBE921647F5300944E57 /* Pet ParaDise */,
 				180CBBFE21647F5800944E57 /* Pet ParaDiseTests */,
 				180CBC0921647F5800944E57 /* Pet ParaDiseUITests */,
 				180CBBE821647F5300944E57 /* Products */,
+				03C1BB7B1CE85A6756ABDB5E /* Pods */,
+				39C8AD5E1FB042912D76C128 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +166,14 @@
 		180CBBE921647F5300944E57 /* Pet ParaDise */ = {
 			isa = PBXGroup;
 			children = (
+				189F0F9621661CAB0066E8B0 /* List */,
+				189F0F8921660AE70066E8B0 /* Cells */,
+				18FABDA02165EF9100DD7997 /* SubCategoriesView */,
+				18FABD872165E23300DD7997 /* Fonts */,
+				180CBC2521648BB500944E57 /* GlobalClasses */,
+				180CBC1E2164825700944E57 /* Home */,
+				180CBC1D2164824900944E57 /* LoginSignUp */,
+				180CBC182164815000944E57 /* RevealView */,
 				180CBBEA21647F5300944E57 /* AppDelegate.swift */,
 				180CBBEC21647F5300944E57 /* ViewController.swift */,
 				180CBBEE21647F5300944E57 /* Main.storyboard */,
@@ -125,6 +202,88 @@
 			path = "Pet ParaDiseUITests";
 			sourceTree = "<group>";
 		};
+		180CBC182164815000944E57 /* RevealView */ = {
+			isa = PBXGroup;
+			children = (
+				180CBC1B216481D100944E57 /* SWRevealViewController.h */,
+				180CBC1A216481D100944E57 /* SWRevealViewController.m */,
+				180CBC19216481D000944E57 /* Pet ParaDise-Bridging-Header.h */,
+			);
+			path = RevealView;
+			sourceTree = "<group>";
+		};
+		180CBC1D2164824900944E57 /* LoginSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				180CBC2321648B9900944E57 /* ForgotPasswordViewController.swift */,
+				180CBC1F2164827000944E57 /* LoginViewController.swift */,
+				180CBC212164828000944E57 /* SignUpViewController.swift */,
+			);
+			path = LoginSignUp;
+			sourceTree = "<group>";
+		};
+		180CBC1E2164825700944E57 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				180CBC2A2164C2AC00944E57 /* HomeViewController.swift */,
+				180CBC2C2164C36300944E57 /* SideBarViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		180CBC2521648BB500944E57 /* GlobalClasses */ = {
+			isa = PBXGroup;
+			children = (
+				180CBC2721648C9200944E57 /* GlobalConstants.swift */,
+				180CBC2621648C9200944E57 /* Utility.swift */,
+			);
+			path = GlobalClasses;
+			sourceTree = "<group>";
+		};
+		189F0F8921660AE70066E8B0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				189F0F8A21660B2D0066E8B0 /* SubCategoryCollectionViewCell.swift */,
+				189F0F90216613830066E8B0 /* ListTableViewCell.swift */,
+				189F0F91216613830066E8B0 /* ListTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		189F0F9621661CAB0066E8B0 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				189F0F94216614FB0066E8B0 /* ProductListViewController.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		18FABD872165E23300DD7997 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				18FABD882165E2F000DD7997 /* josefin-sans */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		18FABDA02165EF9100DD7997 /* SubCategoriesView */ = {
+			isa = PBXGroup;
+			children = (
+				18FABDA12165EFB900DD7997 /* PetSubCategoriesViewController.swift */,
+			);
+			path = SubCategoriesView;
+			sourceTree = "<group>";
+		};
+		39C8AD5E1FB042912D76C128 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C09A865F8BE97DDEC35DCF88 /* Pods_Pet_ParaDise.framework */,
+				38DD8AEA92F9CB390836CAE4 /* Pods_Pet_ParaDiseTests.framework */,
+				8C6C268FDA1A3BEF97AB724C /* Pods_Pet_ParaDiseUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +291,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180CBC0F21647F5800944E57 /* Build configuration list for PBXNativeTarget "Pet ParaDise" */;
 			buildPhases = (
+				3DFD47863192C4645DCC304D /* [CP] Check Pods Manifest.lock */,
 				180CBBE321647F5300944E57 /* Sources */,
 				180CBBE421647F5300944E57 /* Frameworks */,
 				180CBBE521647F5300944E57 /* Resources */,
+				ED7BBBC597F6CDBB602E6A0A /* [CP] Embed Pods Frameworks */,
+				A661CDC06DC9DDA7785C9FE3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +311,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180CBC1221647F5800944E57 /* Build configuration list for PBXNativeTarget "Pet ParaDiseTests" */;
 			buildPhases = (
+				59D5187819A137F8FE62126F /* [CP] Check Pods Manifest.lock */,
 				180CBBF721647F5800944E57 /* Sources */,
 				180CBBF821647F5800944E57 /* Frameworks */,
 				180CBBF921647F5800944E57 /* Resources */,
@@ -167,6 +330,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180CBC1521647F5800944E57 /* Build configuration list for PBXNativeTarget "Pet ParaDiseUITests" */;
 			buildPhases = (
+				47DBB9826A024B056717B332 /* [CP] Check Pods Manifest.lock */,
 				180CBC0221647F5800944E57 /* Sources */,
 				180CBC0321647F5800944E57 /* Frameworks */,
 				180CBC0421647F5800944E57 /* Resources */,
@@ -193,6 +357,7 @@
 				TargetAttributes = {
 					180CBBE621647F5300944E57 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					180CBBFA21647F5800944E57 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -229,7 +394,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189F0F8E21660F150066E8B0 /* JosefinSans-SemiBold.ttf in Resources */,
+				189F0F8F21660F150066E8B0 /* JosefinSans-Bold.ttf in Resources */,
+				18FABD9F2165E82A00DD7997 /* JosefinSans-Regular.ttf in Resources */,
+				18FABD892165E2F000DD7997 /* josefin-sans in Resources */,
 				180CBBF521647F5800944E57 /* LaunchScreen.storyboard in Resources */,
+				189F0F93216613830066E8B0 /* ListTableViewCell.xib in Resources */,
 				180CBBF221647F5800944E57 /* Assets.xcassets in Resources */,
 				180CBBF021647F5300944E57 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +421,132 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3DFD47863192C4645DCC304D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pet ParaDise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47DBB9826A024B056717B332 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pet ParaDiseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59D5187819A137F8FE62126F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pet ParaDiseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A661CDC06DC9DDA7785C9FE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pet ParaDise/Pods-Pet ParaDise-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pet ParaDise/Pods-Pet ParaDise-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED7BBBC597F6CDBB602E6A0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pet ParaDise/Pods-Pet ParaDise-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pet ParaDise/Pods-Pet ParaDise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		180CBBE321647F5300944E57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180CBC2821648C9200944E57 /* Utility.swift in Sources */,
+				180CBC202164827000944E57 /* LoginViewController.swift in Sources */,
+				189F0F95216614FB0066E8B0 /* ProductListViewController.swift in Sources */,
 				180CBBED21647F5300944E57 /* ViewController.swift in Sources */,
+				180CBC2421648B9900944E57 /* ForgotPasswordViewController.swift in Sources */,
 				180CBBEB21647F5300944E57 /* AppDelegate.swift in Sources */,
+				189F0F8B21660B2D0066E8B0 /* SubCategoryCollectionViewCell.swift in Sources */,
+				180CBC2B2164C2AC00944E57 /* HomeViewController.swift in Sources */,
+				180CBC1C216481D100944E57 /* SWRevealViewController.m in Sources */,
+				180CBC2D2164C36300944E57 /* SideBarViewController.swift in Sources */,
+				18FABDA22165EFB900DD7997 /* PetSubCategoriesViewController.swift in Sources */,
+				180CBC2921648C9200944E57 /* GlobalConstants.swift in Sources */,
+				189F0F92216613830066E8B0 /* ListTableViewCell.swift in Sources */,
+				180CBC222164828000944E57 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,8 +717,10 @@
 		};
 		180CBC1021647F5800944E57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC214425BEFAE4514FCA74FC /* Pods-Pet ParaDise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Pet ParaDise/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -438,6 +729,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Ansara.Pet-ParaDise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pet ParaDise/RevealView/Pet ParaDise-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,8 +738,10 @@
 		};
 		180CBC1121647F5800944E57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 561D268C6D8875A63A10E855 /* Pods-Pet ParaDise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Pet ParaDise/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,6 +750,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Ansara.Pet-ParaDise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pet ParaDise/RevealView/Pet ParaDise-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +758,7 @@
 		};
 		180CBC1321647F5800944E57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC8F501F29B05A09FED8695E /* Pods-Pet ParaDiseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +779,7 @@
 		};
 		180CBC1421647F5800944E57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 398927EC7D2454CFDF84EE6F /* Pods-Pet ParaDiseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +800,7 @@
 		};
 		180CBC1621647F5800944E57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286981789C5310B9419EFB38 /* Pods-Pet ParaDiseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +820,7 @@
 		};
 		180CBC1721647F5800944E57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D18B05AFD5FB1032B996EE1E /* Pods-Pet ParaDiseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
